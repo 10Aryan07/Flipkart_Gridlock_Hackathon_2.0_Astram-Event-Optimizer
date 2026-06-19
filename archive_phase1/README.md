@@ -1,0 +1,1 @@
+This folder contains our offline batch-processing models and ensemble experiments(LightGBM/CatBoost) from Phase 1. Our Phase 2 live API deployment utilizes a lightweight Random Forest model, located in the main /models directory, optimized for real-time inference.

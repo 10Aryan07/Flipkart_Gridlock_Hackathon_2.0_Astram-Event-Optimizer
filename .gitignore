@@ -1,0 +1,15 @@
+# Python environment and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Ignore raw data (to prevent GitHub file size errors)
+data/raw/*
+!data/raw/.gitkeep
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db

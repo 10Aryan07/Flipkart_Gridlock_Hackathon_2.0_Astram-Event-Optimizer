@@ -1,0 +1,602 @@
+{
+    "Central Zone 1": {
+        "accident": {
+            "historical_incidents": 11,
+            "expected_duration_minutes": 45.2,
+            "high_severity_probability": 0.73
+        },
+        "congestion": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 38.2,
+            "high_severity_probability": 0.5
+        },
+        "construction": {
+            "historical_incidents": 20,
+            "expected_duration_minutes": 1304.9,
+            "high_severity_probability": 0.3
+        },
+        "others": {
+            "historical_incidents": 21,
+            "expected_duration_minutes": 631.3,
+            "high_severity_probability": 0.76
+        },
+        "pot_holes": {
+            "historical_incidents": 18,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.83
+        },
+        "procession": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 36.5,
+            "high_severity_probability": 0.5
+        },
+        "protest": {
+            "historical_incidents": 1,
+            "expected_duration_minutes": 30.7,
+            "high_severity_probability": 1.0
+        },
+        "public_event": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 64.5,
+            "high_severity_probability": 1.0
+        },
+        "road_conditions": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 1273.5,
+            "high_severity_probability": 0.25
+        },
+        "tree_fall": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 732.1,
+            "high_severity_probability": 0.5
+        },
+        "vehicle_breakdown": {
+            "historical_incidents": 180,
+            "expected_duration_minutes": 44.0,
+            "high_severity_probability": 0.81
+        },
+        "water_logging": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 1.0
+        }
+    },
+    "Central Zone 2": {
+        "Debris": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.0
+        },
+        "accident": {
+            "historical_incidents": 17,
+            "expected_duration_minutes": 44.3,
+            "high_severity_probability": 0.53
+        },
+        "congestion": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 67.5,
+            "high_severity_probability": 0.25
+        },
+        "construction": {
+            "historical_incidents": 20,
+            "expected_duration_minutes": 1383.9,
+            "high_severity_probability": 0.3
+        },
+        "others": {
+            "historical_incidents": 57,
+            "expected_duration_minutes": 570.0,
+            "high_severity_probability": 0.51
+        },
+        "pot_holes": {
+            "historical_incidents": 23,
+            "expected_duration_minutes": 1314.7,
+            "high_severity_probability": 0.3
+        },
+        "procession": {
+            "historical_incidents": 8,
+            "expected_duration_minutes": 32.6,
+            "high_severity_probability": 0.62
+        },
+        "protest": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 24.5,
+            "high_severity_probability": 1.0
+        },
+        "public_event": {
+            "historical_incidents": 5,
+            "expected_duration_minutes": 64.5,
+            "high_severity_probability": 0.4
+        },
+        "road_conditions": {
+            "historical_incidents": 9,
+            "expected_duration_minutes": 1177.4,
+            "high_severity_probability": 0.44
+        },
+        "test_demo": {
+            "historical_incidents": 1,
+            "expected_duration_minutes": 5.0,
+            "high_severity_probability": 1.0
+        },
+        "tree_fall": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.5
+        },
+        "vehicle_breakdown": {
+            "historical_incidents": 465,
+            "expected_duration_minutes": 43.7,
+            "high_severity_probability": 0.57
+        },
+        "water_logging": {
+            "historical_incidents": 8,
+            "expected_duration_minutes": 1264.6,
+            "high_severity_probability": 0.5
+        }
+    },
+    "East Zone 1": {
+        "accident": {
+            "historical_incidents": 9,
+            "expected_duration_minutes": 58.4,
+            "high_severity_probability": 0.44
+        },
+        "congestion": {
+            "historical_incidents": 10,
+            "expected_duration_minutes": 71.5,
+            "high_severity_probability": 0.0
+        },
+        "construction": {
+            "historical_incidents": 57,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.93
+        },
+        "others": {
+            "historical_incidents": 13,
+            "expected_duration_minutes": 658.3,
+            "high_severity_probability": 0.31
+        },
+        "pot_holes": {
+            "historical_incidents": 8,
+            "expected_duration_minutes": 1252.6,
+            "high_severity_probability": 1.0
+        },
+        "procession": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 36.5,
+            "high_severity_probability": 0.0
+        },
+        "protest": {
+            "historical_incidents": 1,
+            "expected_duration_minutes": 24.5,
+            "high_severity_probability": 1.0
+        },
+        "public_event": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 64.5,
+            "high_severity_probability": 0.0
+        },
+        "road_conditions": {
+            "historical_incidents": 10,
+            "expected_duration_minutes": 1430.7,
+            "high_severity_probability": 0.1
+        },
+        "tree_fall": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 405.0,
+            "high_severity_probability": 1.0
+        },
+        "vehicle_breakdown": {
+            "historical_incidents": 132,
+            "expected_duration_minutes": 44.0,
+            "high_severity_probability": 0.58
+        },
+        "water_logging": {
+            "historical_incidents": 7,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.57
+        }
+    },
+    "East Zone 2": {
+        "accident": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 45.5,
+            "high_severity_probability": 0.0
+        },
+        "congestion": {
+            "historical_incidents": 1,
+            "expected_duration_minutes": 71.5,
+            "high_severity_probability": 0.0
+        },
+        "construction": {
+            "historical_incidents": 26,
+            "expected_duration_minutes": 1167.4,
+            "high_severity_probability": 0.31
+        },
+        "others": {
+            "historical_incidents": 22,
+            "expected_duration_minutes": 603.9,
+            "high_severity_probability": 0.32
+        },
+        "pot_holes": {
+            "historical_incidents": 5,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.6
+        },
+        "road_conditions": {
+            "historical_incidents": 7,
+            "expected_duration_minutes": 1091.3,
+            "high_severity_probability": 0.29
+        },
+        "vehicle_breakdown": {
+            "historical_incidents": 120,
+            "expected_duration_minutes": 48.2,
+            "high_severity_probability": 0.34
+        },
+        "water_logging": {
+            "historical_incidents": 5,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.0
+        }
+    },
+    "North Zone 1": {
+        "accident": {
+            "historical_incidents": 20,
+            "expected_duration_minutes": 38.8,
+            "high_severity_probability": 0.8
+        },
+        "congestion": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 77.9,
+            "high_severity_probability": 0.75
+        },
+        "construction": {
+            "historical_incidents": 60,
+            "expected_duration_minutes": 1295.0,
+            "high_severity_probability": 0.87
+        },
+        "others": {
+            "historical_incidents": 25,
+            "expected_duration_minutes": 860.5,
+            "high_severity_probability": 0.8
+        },
+        "pot_holes": {
+            "historical_incidents": 12,
+            "expected_duration_minutes": 1427.8,
+            "high_severity_probability": 0.25
+        },
+        "procession": {
+            "historical_incidents": 7,
+            "expected_duration_minutes": 49.3,
+            "high_severity_probability": 0.57
+        },
+        "public_event": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 64.5,
+            "high_severity_probability": 0.0
+        },
+        "road_conditions": {
+            "historical_incidents": 10,
+            "expected_duration_minutes": 1237.8,
+            "high_severity_probability": 0.8
+        },
+        "tree_fall": {
+            "historical_incidents": 1,
+            "expected_duration_minutes": 732.1,
+            "high_severity_probability": 0.0
+        },
+        "vehicle_breakdown": {
+            "historical_incidents": 173,
+            "expected_duration_minutes": 43.4,
+            "high_severity_probability": 0.84
+        },
+        "water_logging": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.25
+        }
+    },
+    "North Zone 2": {
+        "accident": {
+            "historical_incidents": 21,
+            "expected_duration_minutes": 41.9,
+            "high_severity_probability": 0.67
+        },
+        "congestion": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 40.0,
+            "high_severity_probability": 0.5
+        },
+        "construction": {
+            "historical_incidents": 22,
+            "expected_duration_minutes": 1085.4,
+            "high_severity_probability": 0.55
+        },
+        "others": {
+            "historical_incidents": 46,
+            "expected_duration_minutes": 616.5,
+            "high_severity_probability": 0.89
+        },
+        "pot_holes": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 1151.3,
+            "high_severity_probability": 0.25
+        },
+        "procession": {
+            "historical_incidents": 7,
+            "expected_duration_minutes": 55.1,
+            "high_severity_probability": 0.0
+        },
+        "road_conditions": {
+            "historical_incidents": 9,
+            "expected_duration_minutes": 1030.3,
+            "high_severity_probability": 0.89
+        },
+        "tree_fall": {
+            "historical_incidents": 3,
+            "expected_duration_minutes": 968.1,
+            "high_severity_probability": 0.67
+        },
+        "vehicle_breakdown": {
+            "historical_incidents": 295,
+            "expected_duration_minutes": 42.0,
+            "high_severity_probability": 0.83
+        },
+        "water_logging": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 870.0,
+            "high_severity_probability": 0.5
+        }
+    },
+    "South Zone 1": {
+        "Debris": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 1.0
+        },
+        "accident": {
+            "historical_incidents": 58,
+            "expected_duration_minutes": 39.7,
+            "high_severity_probability": 0.03
+        },
+        "congestion": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 57.0,
+            "high_severity_probability": 0.0
+        },
+        "construction": {
+            "historical_incidents": 9,
+            "expected_duration_minutes": 1123.4,
+            "high_severity_probability": 0.33
+        },
+        "others": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 648.5,
+            "high_severity_probability": 0.0
+        },
+        "pot_holes": {
+            "historical_incidents": 69,
+            "expected_duration_minutes": 1437.1,
+            "high_severity_probability": 0.41
+        },
+        "procession": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 36.5,
+            "high_severity_probability": 0.0
+        },
+        "public_event": {
+            "historical_incidents": 3,
+            "expected_duration_minutes": 64.5,
+            "high_severity_probability": 0.33
+        },
+        "road_conditions": {
+            "historical_incidents": 9,
+            "expected_duration_minutes": 1294.9,
+            "high_severity_probability": 0.22
+        },
+        "tree_fall": {
+            "historical_incidents": 1,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.0
+        },
+        "vehicle_breakdown": {
+            "historical_incidents": 71,
+            "expected_duration_minutes": 48.3,
+            "high_severity_probability": 0.41
+        },
+        "water_logging": {
+            "historical_incidents": 1,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.0
+        }
+    },
+    "South Zone 2": {
+        "accident": {
+            "historical_incidents": 20,
+            "expected_duration_minutes": 51.6,
+            "high_severity_probability": 0.9
+        },
+        "congestion": {
+            "historical_incidents": 1,
+            "expected_duration_minutes": 115.8,
+            "high_severity_probability": 0.0
+        },
+        "construction": {
+            "historical_incidents": 15,
+            "expected_duration_minutes": 1280.7,
+            "high_severity_probability": 0.73
+        },
+        "others": {
+            "historical_incidents": 19,
+            "expected_duration_minutes": 621.3,
+            "high_severity_probability": 0.84
+        },
+        "pot_holes": {
+            "historical_incidents": 118,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.74
+        },
+        "procession": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 35.5,
+            "high_severity_probability": 0.25
+        },
+        "public_event": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 64.5,
+            "high_severity_probability": 0.0
+        },
+        "road_conditions": {
+            "historical_incidents": 5,
+            "expected_duration_minutes": 1158.3,
+            "high_severity_probability": 1.0
+        },
+        "tree_fall": {
+            "historical_incidents": 3,
+            "expected_duration_minutes": 795.8,
+            "high_severity_probability": 0.0
+        },
+        "vehicle_breakdown": {
+            "historical_incidents": 161,
+            "expected_duration_minutes": 44.6,
+            "high_severity_probability": 0.77
+        },
+        "vip_movement": {
+            "historical_incidents": 1,
+            "expected_duration_minutes": 64.5,
+            "high_severity_probability": 0.0
+        },
+        "water_logging": {
+            "historical_incidents": 3,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 1.0
+        }
+    },
+    "West Zone 1": {
+        "accident": {
+            "historical_incidents": 22,
+            "expected_duration_minutes": 40.9,
+            "high_severity_probability": 0.45
+        },
+        "congestion": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 71.5,
+            "high_severity_probability": 0.5
+        },
+        "construction": {
+            "historical_incidents": 8,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.88
+        },
+        "others": {
+            "historical_incidents": 42,
+            "expected_duration_minutes": 823.6,
+            "high_severity_probability": 0.52
+        },
+        "pot_holes": {
+            "historical_incidents": 6,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.17
+        },
+        "procession": {
+            "historical_incidents": 5,
+            "expected_duration_minutes": 53.3,
+            "high_severity_probability": 0.8
+        },
+        "protest": {
+            "historical_incidents": 1,
+            "expected_duration_minutes": 24.5,
+            "high_severity_probability": 0.0
+        },
+        "public_event": {
+            "historical_incidents": 8,
+            "expected_duration_minutes": 64.5,
+            "high_severity_probability": 0.25
+        },
+        "road_conditions": {
+            "historical_incidents": 7,
+            "expected_duration_minutes": 1237.0,
+            "high_severity_probability": 0.43
+        },
+        "test_demo": {
+            "historical_incidents": 1,
+            "expected_duration_minutes": 5.0,
+            "high_severity_probability": 0.0
+        },
+        "tree_fall": {
+            "historical_incidents": 3,
+            "expected_duration_minutes": 578.2,
+            "high_severity_probability": 0.33
+        },
+        "vehicle_breakdown": {
+            "historical_incidents": 322,
+            "expected_duration_minutes": 45.7,
+            "high_severity_probability": 0.68
+        },
+        "water_logging": {
+            "historical_incidents": 6,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.5
+        }
+    },
+    "West Zone 2": {
+        "Debris": {
+            "historical_incidents": 3,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.67
+        },
+        "accident": {
+            "historical_incidents": 7,
+            "expected_duration_minutes": 42.8,
+            "high_severity_probability": 0.43
+        },
+        "congestion": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 68.5,
+            "high_severity_probability": 1.0
+        },
+        "construction": {
+            "historical_incidents": 7,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.57
+        },
+        "others": {
+            "historical_incidents": 39,
+            "expected_duration_minutes": 846.8,
+            "high_severity_probability": 0.79
+        },
+        "pot_holes": {
+            "historical_incidents": 6,
+            "expected_duration_minutes": 1204.6,
+            "high_severity_probability": 1.0
+        },
+        "procession": {
+            "historical_incidents": 2,
+            "expected_duration_minutes": 36.5,
+            "high_severity_probability": 0.5
+        },
+        "public_event": {
+            "historical_incidents": 6,
+            "expected_duration_minutes": 64.5,
+            "high_severity_probability": 0.83
+        },
+        "road_conditions": {
+            "historical_incidents": 5,
+            "expected_duration_minutes": 1086.3,
+            "high_severity_probability": 0.8
+        },
+        "tree_fall": {
+            "historical_incidents": 4,
+            "expected_duration_minutes": 454.8,
+            "high_severity_probability": 0.25
+        },
+        "vehicle_breakdown": {
+            "historical_incidents": 274,
+            "expected_duration_minutes": 47.6,
+            "high_severity_probability": 0.85
+        },
+        "water_logging": {
+            "historical_incidents": 3,
+            "expected_duration_minutes": 1440.0,
+            "high_severity_probability": 0.67
+        }
+    }
+}
