@@ -8,16 +8,14 @@ import os
 st.set_page_config(page_title="ASTraM Event Optimizer", layout="wide")
 API_URL = "http://127.0.0.1:8000/simulate_event"
 
-st.title("🚦 Gridlock Phase 2: ASTraM Event Optimizer")
+st.title("Gridlock Phase 2: ASTraM Event Optimizer")
 st.markdown("Predict localized traffic breakdowns and optimize police resource deployment in real-time.")
 
 @st.cache_data
 def load_zones():
     try:
         frontend_dir = os.path.dirname(os.path.abspath(__file__))
-
         project_root = os.path.dirname(frontend_dir)
-
         csv_path = os.path.join(project_root, "data", "processed", "events_cleaned.csv")
         
         df = pd.read_csv(csv_path)
@@ -44,7 +42,7 @@ with col1:
         event_time = st.time_input("Time", datetime.now().time())
         
         st.divider()
-        st.markdown("Interactive Simulation Mode")
+        st.markdown("**Interactive Simulation Mode**")
         st.caption("Bypass the ML baseline to stress-test the resource optimization algorithms.")
         override_severity_flag = st.checkbox("Enable Manual Severity Override")
         custom_severity = st.slider("Simulate Extreme Severity", 0.0, 1.0, 0.9) if override_severity_flag else None
@@ -68,7 +66,7 @@ with col2:
                 response = requests.post(API_URL, json=payload)
                 if response.status_code == 200:
                     result = response.json()
-
+                    
                     m1, m2, m3 = st.columns(3)
                     speed_pct = int(result['predictions']['predicted_speed_multiplier'] * 100)
                     m1.metric("Traffic Speed", f"{speed_pct}% of Normal", "Degraded Flow", delta_color="inverse")
@@ -79,14 +77,14 @@ with col2:
                     m3.metric("Severity Index", f"{int(result['predictions']['severity_index'] * 100)} / 100")
                     
                     st.divider()
-
+                    
                     st.subheader("ASTraM Dispatch Manifest")
                     r1, r2, r3 = st.columns(3)
                     r1.metric("Officers Required", result['resource_allocation']['recommended_officers'])
                     r2.metric("Barricades to Deploy", result['resource_allocation']['barricades_count'])
                     r3.metric("Diversion Perimeter", f"{result['resource_allocation']['diversion_radius_km']} km")
-
-                    st.subheader("📍 Target Location & Diversion Perimeter")
+                    
+                    st.subheader("Target Location & Diversion Perimeter")
                     map_data = pd.DataFrame({'lat': [zone_lat], 'lon': [zone_lng]})
                     
                     color = [255, 0, 0, 160] if result['predictions']['severity_index'] >= 0.7 else \
@@ -114,9 +112,7 @@ with col2:
                 st.error("Cannot connect to Backend! Is FastAPI running in the other terminal?")
     else:
         st.info("Enter event details and click 'Simulate Impact & Optimize' to generate ASTraM deployment plans.")
-
-        st.subheader("Regional Overview")
         
+        st.subheader("Regional Overview")
         default_view = pdk.ViewState(latitude=12.9716, longitude=77.5946, zoom=10, pitch=30)
-
         st.pydeck_chart(pdk.Deck(initial_view_state=default_view))

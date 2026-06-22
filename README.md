@@ -1,7 +1,7 @@
 # ASTraM Event Optimizer
 **Flipkart Gridlock Hackathon 2.0 - Phase 2 Submission**
 
-The ASTraM Event Optimizer is a real-time, machine-learning-driven command center designed to shift municipal traffic management from *reactive* to *proactive*. By predicting the spatiotemporal impact of localized events(e.g., waterlogging, public events) before they escalate, ASTraM instantly generates a mathematical Dispatch Manifest to optimize police manpower and physical resource deployment.
+The ASTraM Event Optimizer is a real-time, machine-learning-driven command center designed to shift municipal traffic management from *reactive* to *proactive*. By predicting the spatiotemporal impact of localized events(e.g., waterlogging, public events) before they escalate, ASTraM instantly generates a deterministic Dispatch Manifest to optimize police manpower and physical resource deployment.
 
 ## System Architecture & ML Strategy
 
@@ -14,18 +14,18 @@ To ensure maximum scalability and performance, this project utilizes a fully dec
 
 ## Core Intelligence Features
 
-### 1. Cyclical Feature Engineering
+### 1. The Dispatch Policy Engine
+Unlike naive ML implementations, we do not let a black-box model dictate police deployment. Our ML engine strictly predicts the **Severity Probability**. Downstream resource allocation is handled by a deterministic, bounded *Dispatch Policy Engine*, ensuring highly interpretable, mathematically consistent deployment instructions that city officials can manually tune.
+
+### 2. Cyclical Feature Engineering
 The engine does not treat time as a static integer. Datetime inputs are mathematically transformed into continuous trigonometric sine and cosine waves:
 `hour_sin = math.sin(2 * math.pi * hour / 24.0)`
 This allows the model to inherently understand Bengaluru's natural traffic cycles and apply dynamic penalties when events intersect with peak rush hours (8 AM - 11 AM, 5 PM - 9 PM).
 
-### 2. Continuous Resource Optimization
-Resource allocation replaces rigid heuristic step-logic with continuous algorithmic scaling based on the model's live Severity Index (0.0 to 1.0):
-* **Manpower Scaling:** Officers deployed scale linearly with severity.
-* **Physical Assets:** Barricade deployment scales exponentially based on critical severity thresholds, ensuring massive resources are only deployed for systemic threats.
-* **Diversion Mapping:** Dynamically calculates perimeter radii up to 3.5km based on predicted event sprawl.
+### 3. Historical System Dynamics
+To accurately measure ASTraM's proactive impact, the backend cross-references the ML's proactive clearance time against Historical Baseline Averages for specific event causes(e.g., Unmanaged Waterlogging = 240 mins), mapping the exact clearance time saved by intercepting the cascading gridlock queue.
 
-### 3. Interactive Simulation Mode
+### 4. Interactive Simulation Mode
 The frontend includes a developer testing suite("Interactive Simulation Mode") that allows dispatchers to bypass the ML baseline and stress-test the continuous optimization algorithms against extreme, non-historical anomalies.
 
 ## Repository Structure
@@ -71,7 +71,7 @@ GRIDLOCK - P2/
 
 **1. Clone and Install Dependencies**
 
-git clone <your-repo-link>
+git clone <>
 cd "Gridlock - P2"
 pip install -r requirements.txt
 
