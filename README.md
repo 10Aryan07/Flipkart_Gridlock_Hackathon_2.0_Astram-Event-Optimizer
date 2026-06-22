@@ -71,7 +71,7 @@ GRIDLOCK - P2/
 
 **1. Clone and Install Dependencies**
 
-git clone <>
+git clone <https://github.com/10Aryan07/Flipkart_Gridlock_Hackathon_2.0_Astram-Event-Optimizer.git>
 cd "Gridlock - P2"
 pip install -r requirements.txt
 
