@@ -72,19 +72,23 @@ GRIDLOCK - P2/
 **1. Clone and Install Dependencies**
 
 git clone <https://github.com/10Aryan07/Flipkart_Gridlock_Hackathon_2.0_Astram-Event-Optimizer.git>
+
 cd "Gridlock - P2"
+
 pip install -r requirements.txt
 
 **2. Boot the Intelligence Backend(Terminal 1)**
 Ensure your terminal is in the root Gridlock - P2 directory, then start the FastAPI server:
 
 uvicorn backend.main:app --reload
+
 (You should see a confirmation log: ASTraM Random Forest Model Loaded Successfully.)
 
 **3. Launch the Command Center UI(Terminal 2)**
 Open a second terminal, navigate into the frontend directory, and start the Streamlit dashboard:
 
 cd frontend
+
 streamlit run app.py
 
 The ASTraM Event Optimizer will automatically open in your browser at http://localhost:8501.
